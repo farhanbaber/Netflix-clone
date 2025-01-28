@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.container-one #main-img{
+    width: 100%;
+    height: 600px;
+    border-bottom: 3px solid  rgb(190, 0, 0);
+    box-shadow: 5px 5px 56px rgb(23, 23, 170);
+}
+.container-one #img-two{
+width: 200px;
+height: 100px;
+position: relative;
+bottom: 600px;
+left: 200px;
+border-radius: 00px;
+}
+#sign-in-but{
+    text-align: center;
+    border: none;
+    background-color: rgb(190, 0, 0);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.7em 2em;
+position: relative;
+border-radius: 2px;
+text-decoration: none;
+bottom: 650px;
+left: 900px;
+}
+#sign-in-but:hover{
+filter: brightness(50%);
+transition: 0.3s ease-out;
+}
+.para-one{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+    line-height: 50px;
+}
+.para-one h1{
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+input{
+    padding: 0.7em 2em;
+    background: url();
+    border: 1px solid rgb(187, 174, 174);
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+#engine{
+    padding: 0.7em 2em;
+    background-color: rgb(190, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#engine:hover{
+    filter: brightness(50%);
+    transition: 0.3s ease-out;
+}
+.fa-solid{
+    position: relative;
+    font-size: 20px;
+    left: 20px;
+}
+.container-two{
+    color: white;
+    margin-top: -380px;
+    position: relative;
+    left: 200px;
+    line-height: 50px;
+}
+.container-two select{
+    padding: 0.7em 2em;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 25px;
+    
+}
+#selection{
+    position: relative;
+    left: 20px;
+}
+
+.movies{
+    height: 25rem;
+    width: 100%;
+    border:rgb(0, 0, 0) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.movies div{
+    height: 20rem;
+    width: 14.4rem;
+    border-radius: 15px;
+}
+
+#hovermovie:hover::before{
+    content: "";
+    height: 20rem;
+    width: 15rem;
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+#hovermovie:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.movie1{
+    background-image: url(./images/img-one.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+}
+.movie2{
+    background-image: url(./images/img-two.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+}
+.movie3{
+    background-image: url(./images/img-three.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+}
+.movie4{
+    background-image: url(./images/img-four.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s ease-in-out;
+}
+.movies h1{
+    font-size: 10rem;
+    -webkit-text-stroke:2px  white;
+    position: relative;
+    top: 8rem;
+    right: 2rem;
+}
+
+
+
+
+
+.container-three img:hover{
+    filter: brightness(40%);
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+
+} 
+ .container-three #slider{
+width: 100px;
+position: relative;
+bottom: 90px;
+ }
+ .container-four{
+    display: flex;
+    justify-content: around;
+    position: relative;
+    margin-top: 7rem;
+right: 100px;
+ }
+ #join{
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 250px;
+    width: 400px;
+ }
+ .feature{
+    background-image:linear-gradient(to bottom,rgb(0, 0, 26),rgb(0, 0, 26),rgb(34, 34, 61),rgba(122, 39, 53, 0.39)) ;
+        width: 250px;
+    height: 300px;
+    border-radius: 6px;
+    color: white;
+    padding: 0.9em;
+    margin-top: 2rem;
+    
+    
+ }
+ .feature h1{
+    text-align: center;
+ }
+ .feature p{
+    margin-top: 60px;
+ }
+  #card-one{
+    position: relative;
+    right: 150px;
+ }
+ #card-two{
+    position: relative;
+    right: 100px;
+ }
+ #card-three{
+    position: relative;
+    right: 60px;
+ }
+ #card-four{
+    position: relative;
+    right: 30px;
+ } 
+ #h-one{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 150px;
+    left: 150px;
+    
+ }
+ .container-five{
+    margin-top: 150px;
+ }
+ .box-one{
+    width: 1050px;
+    height: 70px;
+    background-color: rgb(27, 25, 25);
+    margin-left: 150px;
+
+ }
+ .box-one p{
+    font-weight: bold;
+    margin: 0.2em 1em;
+    position: relative;
+    bottom: -20px;
+    font-size: 30px;
+    color: white;
+ }
+ #cont-head{
+    color: white;
+    margin-left: 150px;
+    position: relative;
+    bottom: -100px;
+ }
+ .container-six p{
+    color: white;
+    position: relative;
+    bottom: 20px;
+ }
+ .footer-para{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .footer-para #type{
+    width: 50%;
+ }
+ .ahref a{
+color: white;
+ }
+ #us{
+    color: white;
+    position: relative;
+    bottom: 30px;
+ }
+ .footer{
+    margin-top: 60px;
+    line-height: 30px;
+    margin-left: 100px;
+ }
+.footer select{
+    padding: 0.7em 2em;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.footer p{
+    color: white;
+    margin-top: 30px;
+}
+.last-footer{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -250px;
+    line-height: 30px;
+}
+#o-two{
+    margin-left: 60px;
+}
+#o-three{
+margin-left: 100px;
+}
+#o-one{
+    margin-right: 100px;
+}
+.box-one .fa-solid{
+color: white;
+margin-left: 950px;
+font-size: 30px;
+margin-top: -25px;
+}
+ .fa-tv{
+    font-size: 70px;
+    margin-left: 95px;
+    margin-top: 30px;
+    color: rgb(121, 38, 55);
+
+}
+.fa-download{
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(121, 38, 55); 
+}
+.fa-wand-magic-sparkles{
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(121, 38, 55); 
+}
+.fa-face-smile{
+    font-size: 70px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(121, 38, 55); 
+}
+.box-one:hover{
+    transition: 0.5s;
+    filter: brightness(60%);
+}
