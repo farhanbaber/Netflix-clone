@@ -1,0 +1,36 @@
+ 🎬 Netflix Clone
+
+A || Netflix UI Clone ||  built with HTML | CSS | JavaScript that mimics the look and feel of the official Netflix website. This project demonstrates responsive design, modern UI practices, and can be extended with API integration for real data.
+
+
+---
+
+ 📋 Features
+
+- 🎞️ Beautiful and modern homepage with hero banner
+- 📺 Movie rows and categories layout similar to Netflix
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🔍 Hover effects and smooth transitions
+- 🖼️ Dynamic movie thumbnails and banners
+- 🧑 Profile and navbar UI (mock version)
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5 – Structure and layout  
+- CSS3 – Styling, animations, and responsiveness  
+- JavaScript (ES6) – Interactivity (sliders, buttons, etc.)  
+- Vercel – Deployment (for live demo)
+
+---
+
+📂 Project Structure
+
+`bash
+netflix-clone/
+├── index.html            # Main homepage structure
+├── style.css             # All styling and layout code
+├── script.js             # JavaScript for dynamic effects
+├── assets/               # Logos, thumbnails, images
+└── README.md             # Project documentation
